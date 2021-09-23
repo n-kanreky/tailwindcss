@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import {SafeAreaView, View, Text} from 'react-native';
 import tailwind from 'tailwind-rn';
+import './tailwind.css';
 
 const App = () => (
 	<SafeAreaView style={tailwind('h-full')}>
