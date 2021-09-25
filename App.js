@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import {SafeAreaView, View, Text} from 'react-native';
 import tailwind from 'tailwind-rn';
-import './tailwind.css';
+// import './tailwind.css';
 
 const App = () => (
 	<SafeAreaView style={tailwind('h-full')}>
@@ -13,27 +13,6 @@ const App = () => (
 				</Text>      
 			</View>
       
-			<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
-  				Button
-			</button>
-			<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-  				Button
-			</button>
-			<button class="btn btn-blue">
-  Button
-</button>
-
-<style>
-  .btn {
-    @apply font-bold py-2 px-4 rounded;
-  }
-  .btn-blue {
-    @apply bg-blue-500 text-white;
-  }
-  .btn-blue:hover {
-    @apply bg-blue-700;
-  }
-</style>
 
 
 
